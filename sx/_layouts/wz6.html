@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<link rel="stylesheet" href="/bheema/css/style7.css">
+
+<link rel="stylesheet" href="/bheema/css/main.css">
+<style type="text/css">
+	#fk{
+    width:50%; 
+    height:100%; 
+    position:absolute;
+    left:350px; top:700px; 
+    border:; }
+
+  
+</style>
+
+</head>
+<body>
+	 <div class="row">
+    <nav>
+            <ul class="nav-ul">
+              <li class="link"><a href="/bheema/">主页</a></li>
+              <li class="link"><a href="/bheema/about/">关于</a></li>
+              <li class="link"><a href="/bheema/archive/">文章</a></li>
+            <li class="link"><a href="/bheema/contact/">联系</a></li>
+  </ul>
+    </nav>
+</div>
+	<div class="cd">
+		<div class="controls">
+	<label class="controls__label">Number of circles</label>
+	<input class="controls__slider" data-slider type="range" min="100" max="500" step="1" value="300" />
+</div>
+	
+</div>
+<div id="fk">
+	<h3>{{page.title}}</h3>
+	{{ content }}
+</div>
+<script src="/bheema/js/index.js"></script>
+</body>
+</html>

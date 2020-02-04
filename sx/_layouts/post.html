@@ -1,0 +1,51 @@
+---
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<style type="text/css">
+	
+	#cd:hover{
+		transform: scale(1.1);
+	}
+	#ad{
+		  
+	
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 10s ease infinite;
+	}
+	@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	60% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+</style>
+<body>
+<div class="container partition">
+{% include nav-page.html %}
+{% if page.img %}
+<div class="page-image" id="cd" style=" background-image: url({{site.baseurl}}/img/{{page.img}})"></div>
+{% else %}
+{% endif %}
+       <div class="row" style="margin-top: 2em" id="ad">
+        <div class="container page-container"  >
+
+       
+           <h1 class="page-title">{{page.title}}</h1>
+         
+          {{ content }}
+          
+          </div>
+    </div>
+{% include footer.html %}
+</div>
+
+</body>
+</html>

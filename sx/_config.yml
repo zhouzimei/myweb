@@ -1,0 +1,24 @@
+#Created by webjeda - http://webjeda.com
+
+title: Bheema #Keep it short
+email: your@email.com
+
+
+baseurl: /bheema
+
+sass:
+ style: compressed
+ 
+ 
+# Tracker
+analytics: UA-83979019-1
+ 
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
+# 每页文章数量
+paginate: 1
+# 分页保存目录格式
+paginate_path: "page:num"
+# 加载分页插件
+plugins: [jekyll-paginate]
