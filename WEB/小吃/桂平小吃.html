@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小吃</title>
+    <script src="lib/modernizr/modernizr-custom.js"></script>
+    <script src="lib/jquery/jquery.js"></script>
+    <link href="css/mislider.css" rel="stylesheet">
+    <link href="css/mislider-skin-cameo.css" rel="stylesheet">
+    <link rel="stylesheet" href="小吃.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap.min.js" ></script>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+    <script src="js/mislider.js"></script>
+<script>
+    jQuery(function ($) {
+        var slider = $('.mis-stage').miSlider({
+           
+            stageHeight: 380,
+            
+            slidesOnStage: false,
+            
+            slidePosition: 'center',
+            
+            slideStart: 'mid',
+            
+            slideScaling: 150,
+            
+            offsetV: -5,
+            
+            centerV: true,
+            navButtonsOpacity: 1
+        });
+    });
+</script>
+<!-- Apply other styles -->
+
+<link href="css/styles.css" rel="stylesheet">
+    <style type="text/css">
+        .d1 {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid #e1fa89;
+
+            transition: all .5s;
+        }
+
+        .d1:hover {
+            transform: rotate(360deg);
+        }
+
+
+.h {
+  box-sizing: border-box;
+  font: 18px PT Mono;
+ 
+}
+
+
+.box {
+  width: 20%;
+  min-width: 150px;
+  display: block;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+  margin-bottom: 40px;
+  padding: 15px 25px 0 40px;
+  color: darkslategray;
+  box-shadow: 1px 2px 1px -1px #777;
+  transition: background 200ms ease-in-out;
+  text-align:right;
+}
+
+.box a{color:#fff;text-decoration:none;}
+
+.shadow {
+  position: relative;
+}
+.shadow:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  right: 7px;
+  width: 75%;
+  top: 0;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
+  transition: all 150ms ease-in-out;
+}
+
+.box:hover {
+  background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+}
+
+.shadow:hover::before {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  bottom: 20px;
+  z-index: -10;
+}
+
+.circle {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px antiquewhite;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align:right;
+  padding:0 20px 0 0;
+}
+    </style>
+                                                                                                                                                                              <
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">小小个的网站</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../主页/主页.html">主页</a></li>
+                <li><a href="../名胜风景/风景名胜.html">名胜风景</a></li>
+                <li><a href="../小吃/桂平小吃.html">小吃</a></li>
+                <li><a href="../特产/美食特产篇.html">特产</a></li>
+                <li><a href="../注册和登录/注册和登录.html">登录/注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+        <div id="wrapper">
+<figure>
+<div class="mis-stage">
+    <!-- The element to select and apply miSlider to - the class is optional -->
+    <ol class="mis-slider">
+        <!-- The slider element - the class is optional -->
+        <li class="mis-slide">
+            <!-- A slide element - the class is optional -->
+            <a href="#" class="mis-container">
+                <!-- A slide container - this element is optional, if absent the plugin adds it automatically -->
+                <figure>
+                    <!-- Slide content - whatever you want -->
+                    <img src="images/美食1.jpg" alt="Pink Water Lillies">
+                    <figcaption>绿豆糕</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食2.jpg" alt="Pond with Lillies">
+                    <figcaption>肠粉</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食3.jpg" alt="Hidden Pond">
+                    <figcaption>香辣槽</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食4.jpg" alt="Shrine">
+                    <figcaption>黑凉粉</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食5.jpg" alt="White Water Lillies">
+                    <figcaption>体仔糕</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食6.jpg" alt="Garden Walkway">
+                    <figcaption>芋头糕</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li class="mis-slide">
+            <a href="#" class="mis-container">
+                <figure>
+                    <img src="images/美食7.jpg" alt="Lilly with Bee">
+                    <figcaption>炸糖环</figcaption>
+                </figure>
+            </a>
+        </li>
+    </ol>
+</div>
+</div>
+  
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>关于我</h2>
+            <h5>我的照片:</h5>
+            <div class="fakeimg">
+                <img src="images/me.jpg" class="d1">
+            </div>
+            <h4>小小个，鬼精鬼精的，下面是我的标签哈</h4>
+            
+            <div class="h">
+    <div class="j">
+
+  <div class="box shadow">
+  <a href="#">减什么肥</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">腹黑</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">懒癌患者</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">程序媛</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">口嫌体直</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">黑眼圈</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">小短腿</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">蹦跶蹦跶</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">吃吃吃</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">爱追剧</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">轻音乐</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">早点睡</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">叽叽歪歪</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">磨磨唧唧</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">我太难了</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">光想青年</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">杠精</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">冲鸭</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">彩虹屁</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">佛系青年</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">步入养生</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">阳光宅</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">柠檬精</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">996</a>
+  <div class="circle"></div>
+</div>
+
+
+
+</div>
+  </div>
+            
+        </div>
+
+
+
+
+        <div class="col-sm-8" >
+            <h1 align="center">桂平美食与小吃</h1>
+
+
+
+
+            <h3>桂平猪脚粉</h3>
+            <p  style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;猪脚粉制作的猪脚肥而不腻，皮略脆，不软不硬，是很多桂平人的最爱。 猪脚性平，味甘咸，具有补血益气、通乳、去毒功效，适合气虚体弱者食用。猪脚骨中的胶质含有钙、磷等矿物质，能强化人的牙齿和骨骼。搭配粉面一起食用，更能起到补充体力和补血益气的作用。</p>
+            <img src="images/猪脚粉1jpg.jpg" style="width: 675px;height:420px; margin: 30px"  >
+            <img src="images/猪脚粉2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+
+            <h3>粉利</h3>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉利是广西传统小吃之一，主要分布桂北，桂南地区，“粉利”寓意来年有个好兆头之意。小吃介绍粉利是原生态的米制品，经过石磨磨成浆，然后经过蒸煮而成。桂平一般会在过年吃的。</p>
+            <img src="images/粉利1jpg.jpg" style="width: 675px;height:420px; margin: 30px">
+            <img src="images/粉利2.jpg" style="width: 675px;height:420px; margin:30px">
+            <br>
+
+
+            <h3 >糍粑</h3>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;糍粑，一种平凡的食物。在我国，只要是产米的地区，几乎随处可见有当地特色的糍粑。桂平是产粮大市，桂平人做的糍粑，最具传统特色。桂平人把做糍粑形象的叫做“整”糍粑。水煮糍粑，在桂平也有人叫“米果”或叫“茶果”，经过不断搓揉糯米粉成为面团，再放上苦瓜、猪肉、腐竹、豆角，也可以放糖，做成甜的，最后用老火大锅水煮出锅即可品尝。据说，这种小吃，在桂平已有上千年的历史。</p>>
+            <img src="images/糍粑1.jpg" style="width: 675px;height:420px; margin: 30px" >
+            <img src="images/糍粑2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+            <h3 >肠粉</h3>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平卷粉和广东的肠粉类似，由于当地大米和水质的不同，蒸制出来的卷粉更薄口感也更为劲道，再搭配乳汁和花生末、酸豆角，爽滑鲜嫩，令人欲罢不能。</p>
+            <img src="images/肠粉1.png" style="width: 675px;height:420px; margin: 30px">
+            <img src="images/肠粉2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+
+
+
+            <h3 >豆腐酿</h3>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豆腐酿，相信很多外地人都吃过，金黄色的油果里包着糯米，打开锅盖后涌出的清香，格外诱人。</p>
+            <img src="images/豆腐酿1.jpg"  style="width: 675px;height:420px; margin: 30px">
+            <img src="images/豆腐酿2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+
+
+            <h3>炸葱饼</h3>
+            <p style="font-size: 15px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在桂平有很多卖葱饼的小摊贩，堆满着炸葱饼。葱饼的制作就是在米浆中加入香葱等馅料，用特制的圆形铁盘承装后放入油锅，炸至金黄酥脆，它的特点是外酥内嫩，口感劲道。</p>
+            <img src="images/葱饼1.jpg"  style="width: 675px;height:420px; margin: 30px">
+            <img src="images/葱饼2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+
+            <h3>酸野</h3>
+            <p style="font-size: 15px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个外地人会直接联想到四川的泡菜，但实际上口感上的差异还是比较大的，各家的做法不同，有用糖水泡的冰糖酸，也有老卤水腌制的老坛酸。但口感上都是以，酸甜爽脆为主要特点。，</p>
+            <img src="images/酸野2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <img src="images/酸野1.jpg" style="width: 675px;height:420px; margin: 30px">
+             <br>
+
+
+            <h3>凉粉</h3>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平的夏天，街头巷尾都能看到骑三轮车卖凉粉的小摊，其实桂平的凉粉有黑凉粉和白凉粉，根据个人喜好可以任意搭配，在淋上熬制的糖水，冰凉爽滑，祛属必备。</p>
+            <img src="images/凉粉1.jpg"  style="width: 675px;height:420px; margin: 30px">
+            <img src="images/凉粉2.jpg" style="width: 675px;height:420px; margin: 30px">
+            <br>
+
+
+            <h3>油糍</h3>
+            <p style="font-size: 15px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在桂平，一般的小吃店里，或者过年前人们家中，都少不了油糍的身影。桂平的油糍是用糯米粉滚上芝麻后炸成空心大圆，口感酥脆香甜，美味触手可及。</p>
+            <img src="images/油糍1.jpg"  style="width: 675px;height:420px; margin: 30px">
+            <img src="images/油糍2.jpg" style="width: 675px;height:420px; margin: 30px">
+
+
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+      <p>2019-2020-1学期   web前端开发技术课程设计   周子湄   201709601028   软件Q179</p>
+</div>
+</body>
+
+</html>

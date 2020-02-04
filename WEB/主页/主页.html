@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css"> 
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+     <link type="text/css" href="css/style.css" rel="stylesheet" />
+   
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="./bootstrap.min.js"></script>
+        <style>
+        .d1 {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid #e1fa89;
+
+            transition: all .5s;
+        }
+
+        .d1:hover {
+            transform: rotate(360deg);
+        }
+        #kuang{
+            position: absolute;
+            left:100px;
+            top: -300px;
+
+
+        }
+
+
+
+.h {
+  box-sizing: border-box;
+  font: 18px PT Mono;
+ 
+}
+
+
+.box {
+  width: 20%;
+  min-width: 150px;
+  display: block;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+  margin-bottom: 40px;
+  padding: 15px 25px 0 40px;
+  color: darkslategray;
+  box-shadow: 1px 2px 1px -1px #777;
+  transition: background 200ms ease-in-out;
+  text-align:right;
+}
+
+.box a{color:#fff;text-decoration:none;}
+
+.shadow {
+  position: relative;
+}
+.shadow:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  right: 7px;
+  width: 75%;
+  top: 0;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
+  transition: all 150ms ease-in-out;
+}
+
+.box:hover {
+  background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+}
+
+.shadow:hover::before {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  bottom: 20px;
+  z-index: -10;
+}
+
+.circle {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px antiquewhite;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align:right;
+  padding:0 20px 0 0;
+}
+        
+    </style>
+
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">小小个的网站</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../主页/主页.html">主页</a></li>
+                <li><a href="../名胜风景/风景名胜.html">名胜风景</a></li>
+                <li><a href="../小吃/桂平小吃.html">小吃</a></li>
+                <li><a href="../特产/美食特产篇.html">特产</a></li>
+                <li><a href="../注册和登录/注册和登录.html">登录/注册</a></li>
+              
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="wrap" id="wrap">
+    <ul class="content"></ul>
+    <a href="javascript:;" class="prev">&#60;</a>
+    <a href="javascript:;" class="next">&#62;</a>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>关于我</h2>
+            <h5>我的照片:</h5>
+            <div ><img class="d1"src="images/me.jpg"></div>
+            <h4>小小个，鬼精鬼精的，下面是我的标签</h4>
+
+<div class="h">
+    <div class="j">
+
+  <div class="box shadow">
+  <a href="#">减什么肥</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">腹黑</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">懒癌患者</a>
+  <div class="circle"></div>
+</div>
+
+<div class="box shadow">
+  <a href="#">程序媛</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">口嫌体直</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">黑眼圈</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">小短腿</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">蹦跶蹦跶</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">吃吃吃</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">爱追剧</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">轻音乐</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">早点睡</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">叽叽歪歪</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">磨磨唧唧</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">我太难了</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">光想青年</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">杠精</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">冲鸭</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">彩虹屁</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">佛系青年</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">步入养生</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">阳光宅</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">柠檬精</a>
+  <div class="circle"></div>
+</div>
+<div class="box shadow">
+  <a href="#">996</a>
+  <div class="circle"></div>
+</div>
+
+
+
+</div>
+  </div>
+        </div>
+
+            
+
+
+
+        <div class="col-sm-8" id="b">
+       
+            <h2 align="center">桂平简介</h2>
+
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平市，别名浔州，位于广西东南部。南朝梁天监元年(502)始建桂平县。自南梁至清末，桂平县城一直是浔州郡治、州治、路治、府治所在地。1994年5月撤县设市。1996年10月，桂平市改由贵港市代管。桂平市距自治区首府南宁陆路220公里，水路438公里，距北部湾188公里。桂平是国务院批准的中国最早对外开放县之一，既是西江工业走廊和红水河能源工业带的结合部，又是连结华南经济区和西南经济区的西江航运大通道上的重要城市。还拥有位于市区附近的军民两用桂平蒙圩机场，可起降大中型飞机。桂平既是广西水路交通枢纽，也是中国大西南物资出口港澳的通道。</p>
+
+
+
+            <div class="fakeimg"><img src="images/桂平全景.jpg"  style="width: 675px;height:420px; margin:30px"></div>
+            <br>
+
+            <h2 align="center">地理位置</h2>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平位于广西东南部，介于北纬22°52′—23°48′与东经109°41′—110°22′之间，北回归线横贯市境中部。大瑶山盘亘于西北部，郁江、黔江在境内交汇，浔江从此起点，顺浔江可至梧州、广州、以至港澳；溯郁江、黔江可达南宁、柳州。郁江、浔江沿岸，是广西最大的冲积平原，为重要的糖、粮基地。距南宁陆路255公里，水路438公里，距北部湾188公里。</p>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平过境河流干流有黔江、郁江、浔江，均属珠江流域西江水系。黔江、郁江分别由西北、西南方向流入，在县城汇合为浔江。河流支流有45条，较小的溪流密布。集水面积4056平方公里（不包括黔江、郁江、浔江，下同0。主要河流，县内长度992.95公里，年平均径流量40.56亿立方米，最小流量为21.245立方米/秒。各河流大体是顺着地势向东流，干流黔江、郁江、浔江横贯其中，支流分布两侧，状如老树盘根，以每平方公里0.248公里的河流密度分布，构成的水系。</p>
+            <div class="fakeimg"><img src="images/桂平全景5.jpg" style="width: 675px;height:420px; margin:30px"></div>
+            <br>
+
+
+
+            <h2 align="center">气候环境</h2>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平市属南亚热带，气候温和（年平均气温21.4度，相对湿度80%），雨量充沛（年平均降雨量1726.7mm）、阳光充足（年平均日照1700小时，全年无霜期长达339天以上）。桂平地处低纬地区，北回归线横贯其中，南近海洋，属南亚热带季风气候。夏半年（4～9月）受湿热的夏季风影响，盛吹偏南风；冬半年（10月～次年3月）受干冷的冬季风影响，多吹偏北风。总的特点是：气温较高，阳光充足，雨量充沛，但分布不均。夏季多暴雨，易洪涝，春秋有干旱，冬季有霜冻。</p>
+            <div class="fakeimg"><img src="images/天气2.jpg" style="width: 675px;height:420px; margin:30px"></div>
+            <br>
+
+            <h2 align="center">自然资源</h2>
+            <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桂平市是农业重镇，2012年，全市有耕地面积105万亩，有适宜种植各种南亚热带经济林果的山丘岗地300多万亩，水域面积33万多亩。是广西第一人口大县，2013年城区面积由2010年的19平方公里拓展到目前的28平方公里;城镇化率达到40.2%。城区人口为30万(2013)。是广西最大的粮食生产基地、内河船舶生产基地、休闲服装生产基地、黄沙鲨养殖基地和腐竹出口基地。</p>
+            <div class="fakeimg"><img src="images/自然资源1.jpg" style="width: 675px;height:420px; margin:30px"></div>
+            <br>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>2019-2020-1学期   web前端开发技术课程设计   周子湄   201709601028   软件Q179</p>
+</div>
+
+<script type="text/javascript">
+        
+            $("#myCarousel").carousel('cycle');
+</script>
+ 
+ <script type="text/javascript" src="fitty.min.js"></script>
+</body>
+</html>
